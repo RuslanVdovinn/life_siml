@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
     src/main.cpp
+    src/grid.cpp
+    src/life_simulator.cpp
 )
 
 add_executable(life_simulator ${SOURCES})
